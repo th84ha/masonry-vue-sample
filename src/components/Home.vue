@@ -18,31 +18,26 @@ export default {
   data () {
     return {
       items: [
-        '/static/images/01.jpg',
-        '/static/images/02.jpg',
-        '/static/images/03.jpg',
-        '/static/images/04.jpg',
-        '/static/images/05.jpg',
-        '/static/images/06.jpg',
-        '/static/images/07.jpg',
-        '/static/images/08.jpg',
-        '/static/images/09.jpg',
-        '/static/images/10.jpg',
-        '/static/images/11.jpg',
-        '/static/images/12.jpg',
-        '/static/images/13.jpg',
-        '/static/images/14.jpg',
-        '/static/images/15.jpg'
+        require('@/assets/01.jpg'),
+        require('@/assets/02.jpg'),
+        require('@/assets/03.jpg'),
+        require('@/assets/04.jpg'),
+        require('@/assets/05.jpg'),
+        require('@/assets/06.jpg'),
+        require('@/assets/07.jpg'),
+        require('@/assets/08.jpg'),
+        require('@/assets/09.jpg'),
+        require('@/assets/10.jpg'),
+        require('@/assets/11.jpg'),
+        require('@/assets/12.jpg'),
+        require('@/assets/13.jpg'),
+        require('@/assets/14.jpg'),
+        require('@/assets/15.jpg')
       ]
     }
   },
   mounted: function () {
     this.$redrawVueMasonry()
-  },
-  methods: {
-    reDraw: function () {
-      this.$redrawVueMasonry()
-    }
   }
 }
 </script>
